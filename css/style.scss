@@ -16,6 +16,7 @@ body {
   background-color: #111;
   position: relative;
   margin: 0 auto;
+  transform: translate(bottom);
 }
 .main {
   position: absolute;
@@ -75,7 +76,9 @@ body {
 
 @media screen and (min-width: 800px) {
   .container {
-    width: 390px;
-    height: 844px;
+    width: 400px;
+    height: 98vh;
+    border-radius: 30px;
+    margin-top: 10px;
   }
 }
