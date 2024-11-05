@@ -43,6 +43,9 @@ document.getElementById("button0").onclick = function () {
 document.getElementById("buttonAc").onclick = function () {
   document.getElementById("result").innerHTML = "";
 };
+document.getElementById("buttonRoot").onclick = function () {
+  document.getElementById("result").innerHTML = "√";
+};
 document.getElementById("button+").onclick = function () {
   document.getElementById("result").innerHTML += " + ";
 };
