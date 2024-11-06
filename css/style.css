@@ -85,81 +85,9 @@ body {
 
 @media screen and (min-width: 800px) {
   .container {
-    width: 100vw;
-    height: 100vh;
-  }
-  .buttons {
-    justify-content: space-evenly;
-  }
-  .button {
-    width: 200px;
-    height: 70px;
+    width: 400px;
+    height: 98vh;
     border-radius: 30px;
-  }
-  #button0 {
-    border-radius: 30px;
-    order: 19;
-    width: 42%;
-    align-items: center;
-  }
-  #button0 span {
-    margin: 0;
-  }
-  #button- {
-    order: 6;
-  }
-  #buttonPlus {
-    order: 5;
-  }
-  #button {
-    order: 2;
-  }
-  #buttonAc {
-    order: 1;
-  }
-  #buttonRoot {
-    order: 2;
-  }
-  #buttonB {
-    order: 3;
-  }
-  #buttonX {
-    order: 4;
-  }
-  #buttonRes {
-    order: 7;
-  }
-  #buttonP {
-    order: 8;
-  }
-  #button1 {
-    order: 9;
-  }
-  #button2 {
-    order: 10;
-  }
-  #button3 {
-    order: 11;
-  }
-  #button4 {
-    order: 12;
-  }
-  #button5 {
-    order: 13;
-  }
-  #button6 {
-    order: 14;
-  }
-  #button7 {
-    order: 15;
-  }
-  #button8 {
-    order: 16;
-  }
-  #button9 {
-    order: 17;
-  }
-  #buttonN {
-    order: 18;
+    margin-top: 10px;
   }
 }/*# sourceMappingURL=style.css.map */
