@@ -46,22 +46,22 @@ document.getElementById("buttonAc").onclick = function () {
 document.getElementById("buttonRoot").onclick = function () {
   document.getElementById("result").innerHTML = "√";
 };
-document.getElementById("button+").onclick = function () {
+document.getElementById("buttonPlus").onclick = function () {
   document.getElementById("result").innerHTML += " + ";
 };
 document.getElementById("button-").onclick = function () {
   document.getElementById("result").innerHTML += " - ";
 };
-document.getElementById("button.").onclick = function () {
+document.getElementById("buttonN").onclick = function () {
   document.getElementById("result").innerHTML += ".";
 };
 document.getElementById("buttonX").onclick = function () {
   document.getElementById("result").innerHTML += " x ";
 };
-document.getElementById("button%").onclick = function () {
+document.getElementById("buttonP").onclick = function () {
   document.getElementById("result").innerHTML += " % ";
 };
-document.getElementById("button=").onclick = function () {
+document.getElementById("buttonRes").onclick = function () {
   let expression = document.getElementById("result").innerHTML;
   expression = expression.replace(/ x /g, " * ");
   try {
@@ -75,7 +75,7 @@ document.getElementById("button=").onclick = function () {
     document.getElementById("result").innerHTML = "Error";
   }
 };
-document.getElementById("button/").onclick = function () {
+document.getElementById("buttonB").onclick = function () {
   document.getElementById("result").innerHTML += " / ";
 };
 
