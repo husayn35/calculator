@@ -56,7 +56,7 @@ document.getElementById("buttonN").onclick = function () {
   document.getElementById("result").innerHTML += ".";
 };
 document.getElementById("buttonX").onclick = function () {
-  document.getElementById("result").innerHTML += " x ";
+  document.getElementById("result").innerHTML += " × ";
 };
 document.getElementById("buttonP").onclick = function () {
   document.getElementById("result").innerHTML += " % ";
@@ -76,7 +76,7 @@ document.getElementById("buttonRes").onclick = function () {
   }
 };
 document.getElementById("buttonB").onclick = function () {
-  document.getElementById("result").innerHTML += " / ";
+  document.getElementById("result").innerHTML += " ÷ ";
 };
 
 document.getElementById("button0").onclick = function () {
